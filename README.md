@@ -1,8 +1,11 @@
-# Best-Film-Recs
-A python based program that helps movie-viewers find movie recommendations based on a movie they have enjoyed before, easing the lengthy process of trying to find something new to watch. Users input a movie they have seen, and the system recommends multiple movies that are similar.
+# FileOrganizer
+A python based application that eases the burden of organizing messy computer files. Many of us find ourselves with messy and confusing file structuring on our computers, which can lead to lost files, inefficient file management, and headaches. This simple file organizer will take care of these problems by separating files based on the file type, and place these into corresponding folders. 
 
 ## Target Audience
-The intended audience for this software is people who often find themselves spending unnecessary amounts of time trying to find a movie to watch, and are in need of assistance when it comes to making that decision.
+The intended audience for this application is people who are looking to organize files on their computer fast and easy. Instead of spending unnecessary amounts of time manually moving and organizing files, users can separate files at the click of a button.
 
 ## Key Features
 - TBD
+
+### Author
+Andy Diaz
