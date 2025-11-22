@@ -11,9 +11,11 @@
 
 ## Sprint 2
 - [x] Begin Working on Main Code
-- [ ] Make Small Updates and Add Commit Messages to Repo
+- [x] Make Small Updates and Add Commit Messages to Repo
 - [ ] Make Atleast 6 Code Changes of Significant Size
 - [ ] Update projectroadmap.md with Planned and Emerging Tasks
+- [x] Add File Categories Dictionary
+- [x] Add Organize Function/Logic
 
 ## Sprint 3
 
