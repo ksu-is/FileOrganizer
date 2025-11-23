@@ -77,23 +77,27 @@ def run_organizer():
     result = organize_files(folder)
     output_var.set(result)
     
-
+#Create GUI Window
 root = tk.Tk()
 root.title("FileOrganizer")
 root.geometry("500x250")
 
-
+#Store Values for Selected Folder and Function Output and Link to Widgets
 folder_var = tk.StringVar()
 output_var = tk.StringVar()
 
+#Create Label at Top of Window
 tk.Label(root, text = "Choose Folder to Organize:", font = ("Arial", 12)).pack(pady=10)
 
+#Create Frame to Hold Widgets
 frame = tk.Frame(root)
 frame.pack()
 
+#Create and Place Widgets, while connecting buttons to functions
 tk.Entry(frame, textvariable = folder_var, width = 40).pack(side = tk.LEFT, padx = 5)
 tk.Button(frame, text = "Browse", command = choose_folder).pack(side = tk.LEFT)
 tk.Button(root, text = "Organize Files", command = run_organizer, height = 2, width = 20).pack(pady = 20)
 tk.Label(root, textvariable = output_var, fg = "blue", font = ("Arial", 11)).pack(pady = 10)
 
+#Initialize GUI when Starting Program
 root.mainloop()
