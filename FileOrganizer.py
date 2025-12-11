@@ -8,11 +8,12 @@ from tkinter import filedialog, messagebox
 file_categories = {
     "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff"],
     "Videos": [".mp4", ".mkv", ".flv", ".avi", ".mov"],
-    "Documents": [".pdf", ".doc", ".docx", ".txt", ".ppt", ".pptx", ".xls", ".xlsx"],
+    "Documents": [".pdf", ".doc", ".docx", ".txt", ".ppt", ".pptx", ".xls", ".xlsx", ".rtf"],
     "Audio": [".mp3", ".wav", ".aac", ".flac"],
     "Archives": [".zip", ".rar", ".7z", ".tar", ".gz"],
     "Data": [".csv", ".json", ".xml"],
     "Photoshop": [".psd"],
+    "Programming": [".c", ".java", ".py", ".sh"],
     "Other": []
 
 }
